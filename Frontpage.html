@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://cdn.tailwindcss.com"></script>
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="">
+   <header class="p-7 bg-white drop-shadow-xl   ">
+      <nav class="flex space-x-4  justify-between  ">
+         <img src="./logo-editable-source-file-_EPS_.svg" alt="" class=" absolute w-[60px] h-[60px]">
+
+
+         <div class="">
+            <h3 class="ml-[60px] bg-gradient-to-r from-red-500 via-pink-300 to-blue-800 
+          bg-clip-text text-transparent font-bold text-2xl transition duration-300 
+          hover:text-black via-indigo-800 to-black-800 cursor-pointer">
+               Shift Code Labs.
+            </h3>
+
+         </div>
+
+
+
+         <!-- Icon for small screen size  -->
+         <button id="menu-btn" class="block md:hidden text-black focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+               stroke="currentColor" stroke-width="2">
+               <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+         </button>
+
+
+         <!-- Links -->
+         <div id="menu" class="hidden md:flex space-x-7 text-gray-600 font-bold mt-[8px]">
+            <a href="#" class="hover:text-black">Home</a>
+            <a href="#" class="hover:text-black">About</a>
+            <a href="Courses.html" class="hover:text-black">Courses</a>
+            <a href="./Ourteam.html" class="hover:text-black">Our Team</a>
+            <a href="" class="hover:text-black">Contact</a>
+            <a href="" class="hover:text-black">Download</a>
+
+         </div>
+
+
+         <!-- Mobile Menu -->
+         <div id="mobile-menu" class="hidden md:hidden bg-[#1b2838]">
+            <a href="#" class="block px-4 py-2 text-white hover:bg-[#a6a6a6]">Home</a>
+            <a href="./pages/About.html" class="block px-4 py-2 text-white hover:bg-[#a6a6a6]">About</a>
+            <a href="./pages/Courses.html" class="block px-4 py-2 text-white hover:bg-[#a6a6a6]">Courses</a>
+            <a href="./pages/Services.html" class="block px-4 py-2 text-white hover:bg-[#a6a6a6]">Services</a>
+            <a href="./pages/Contact.html" class="block px-4 py-2 text-white hover:bg-[#a6a6a6]">Contact</a>
+         </div>
+
+
+         <!-- Log in --- Sign up buttons  -->
+         <div id="button" class="hidden md:block md:flex space-x-7 mr-[20px] mx-auto ">
+            <button
+               class="border border-gray-900 p-[8px] px-[18px]  font-bold hover:bg-gray-200 transition duration-300">
+               Log in
+            </button>
+
+            <button
+               class="border border-gray-900 p-[8px] px-[18px] bg-[#384B70] font-bold hover:bg-gray-700 transition duration-300 text-white">
+               Sign up
+            </button>
+
+         </div>
+         <!-- Enroll Button -->
+         <div id="Enroll button" class="block md:hidden ">
+            <button
+               class=" border border-gray-900 p-[8px] px-[18px] font-bold hover:bg-gray-200 transition duration-300 ">
+               Enroll Now
+            </button>
+         </div>
+      </nav>
+   </header>
+   <!-- Header Section End -->
+
+   <!-- Text Section  -->
+   <section class=" mt-20 ">
+      <div class="container text-[#384B70] mx-auto text-center">
+         <h1 class="text-6xl font-bold mb-4 slide-in-left ">Empowering the Next Generation of Learners</h1>
+         <p class="text-xl mb-8 mt-[30px] slide-in-right">Join our world-class online learning platform and explore new
+            horizons with innovative
+            technologies.
+         </p>
+         <a href="#"
+            class=" mt-[] border rounded-md border-gray-900 p-[8px] px-[18px] font-bold hover:bg-[white] hover:text-[#384B70] bg-[#384B70] text-[white] transition duration-300">
+            Learn More
+         </a>
+
+         <h1 class="mt-[50px] text-4xl font-bold text-[#FFD580]">
+            Discover. Learn. Transform
+         </h1>
+
+
+      </div>
+
+
+      <div
+         class="container mt-[90px] mx-auto flex flex-wrap items-center justify-center md:justify-between space-y-1 md:space-y-0">
+         <p class="text-base md:text-lg font-normal md:w-1/2 text-center md:text-left">
+            Step into the world of technology and Artificial Intelligence <br> realm and level up your skills. It's a
+            <br> knowledge you can't miss.
+         </p>
+
+         <a href="#" class="w-full md:w-auto md:mt-0 md:ml-[-100px] lg:[]">
+            <button
+               class="flex items-center justify-center text-lg md:text-xl border border-gray-900 rounded-3xl px-14 py-3 hover:bg-red-400 shadow-[0_8px_6px_rgba(0,0,0,0.2)] transition-all hover:-translate-y-1 hover:shadow-[0_10px_14px_rgba(0,0,0,0.8)] w-full md:w-auto">
+               <span>Explore Full Courses</span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" class="w-6 h-6 text-blue-800 ">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+               </svg>
+            </button>
+         </a>
+
+         <div class="w-full md:w-auto flex justify- hidden md:flex mt- md:mt-2">
+            <img src="./Designnnnn-removebg-preview.png" alt=""
+               class="w-40 h-40 md:w-64 md:h-64 mx-auto lg:mr-[-70px] lg:flex ">
+         </div>
+      </div>
+
+   </section>
+   <!-- Text Section End  -->
+
+
+   <!-- Section for Our technologies -->
+   <section class="mt-[20px]">
+
+      <div class=" mx-auto ">
+         <h1 class="text-center text-4xl font-bold text-[#384B70] slide-in-left  ">
+            Our Top Courses
+         </h1>
+
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 m-20  ">
+            <div class="bg-white  rounded-3xl p-6 shadow-xl border border-black ">
+               <p class="text-xl  mb-4 font-bold">
+                  Full Stack Development
+               </p>
+               <h4 class="  mt-6">
+                  "Learn to build complete web applications from front to back. Our Full Stack Development course covers
+                  essential front-end and back-end skills, frameworks, and best practices to prepare you for real-world
+                  projects."</h4>
+               <img src="./Card1.png" alt="" class="w-[270px] h-[110px] m-auto mt-12">
+               <div class="flex items-center mt-16">
+                  <span class="w-3 h-3 bg-blue-500 rounded-full mr-2"></span> <!-- Blue circular mark -->
+                  <p class="">Beginner</p>
+               </div>
+
+            </div>
+            <div class="bg-white p-6  shadow-xl border border-black rounded-3xl slide-in-above ">
+               <p class=" text-xl mb-4 font-bold">
+                  Web Development
+               </p>
+               <h4 class="  mt-6">
+                  "Learn to build professional, responsive websites and applications with our Web Development course.
+                  Master HTML, CSS, JavaScript, and popular frameworks through hands-on projects. Gain the skills to
+                  become a job-ready web developer!"
+               </h4>
+               <img src="./Card2.png" alt="" class="w-[180px] h-[220px] m-auto mt-10">
+               <div class="flex items-center mt-16">
+                  <span class="w-3 h-3 bg-red-500 rounded-full mr-2"></span> <!-- Blue circular mark -->
+                  <p class="">Beginner</p>
+               </div>
+
+            </div>
+
+            <div class="bg-white p-6 drop-shadow-2xl border border-black rounded-3xl ">
+               <p class="font-bold text-xl mb-6">
+                  Python Courses
+               </p>
+               <h4 class="">"Learn to build professional, responsive websites and applications with our Web Development
+                  course. Master HTML, CSS, JavaScript, and popular frameworks through hands-on projects. Gain the
+                  skills to become a job-ready web developer!"</h4>
+               <img src="./Card3.png" alt="" class="w-[290px] h-[110px] m-auto mt-12">
+               <div class="flex items-center mt-16">
+                  <span class="w-3 h-3 bg-red-500 rounded-full mr-2"></span> <!-- Blue circular mark -->
+                  <p class="">Beginner</p>
+               </div>
+
+            </div>
+         </div>
+
+
+         <div class="flex justify-center ">
+            <a href="#" class="w-full md:w-auto md:mt-0  lg:[]">
+               <button
+                  class="flex items-center justify-center text-lg md:text-xl border border-gray-900 rounded-3xl px-14 py-3 hover:bg-red-400 shadow-[0_8px_6px_rgba(0,0,0,0.2)] transition-all hover:-translate-y-1 hover:shadow-[0_10px_14px_rgba(0,0,0,0.8)] w-full md:w-auto">
+                  <span>Explore Full Courses</span><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                     viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 text-blue-800 ">
+                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                  </svg>
+               </button>
+            </a>
+
+         </div>
+      </div>
+
+   </section>
+
+   <!-- Technologies Section End  -->
+
+
+
+   <!-- Syllabus Download Section -->
+
+   <section class="mt-20 mb-10">
+      <h1 class="text-center text-4xl font-bold text-[#384B70]">
+         Course Syllabus
+      </h1>
+
+      <div class="max-w-[1320px] mt-16 mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-6 ">
+         <!-- Card 1 -->
+         <button class="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 ">
+            <div class="h-40 w-full overflow-hidden">
+               <img src="" class="">
+            </div>
+            <div class="p-5 ">
+               <h3 class="font-bold pt-2">C<br> Programming</h3>
+
+               <h4 class="font-bold">Rs.14000</h4>
+
+               <!-- Bestseller Tag -->
+               <!-- <div class="bg-yellow-200 border rounded-full font-semibold text-sm p-[5px] w-[100px] my-2">Bestseller</div> -->
+               <a href="">
+                  <div
+                     class="border border-black rounded-3xl mt-5 bg-[#384B70] text-white font-bold text-center py-2 hover:bg-[white] hover:text-[#384B70] bg-[#384B70] text-[white] transition duration-300">
+                     Download Syllabus
+                  </div>
+               </a>
+            </div>
+         </button>
+
+         <!-- Card 2 -->
+         <button class="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300">
+            <div class="h-40 w-full overflow-hidden">
+               <img src="" class="">
+            </div>
+            <div class="p-5 ">
+               <h3 class="font-bold  ">C++ <br>Programming</h3>
+
+               <h4 class="font-bold">Rs.20000</h4>
+
+               <a href="">
+                  <div
+                     class="border border-black rounded-3xl mt-5 bg-[#384B70] text-white font-bold text-center py-2 hover:bg-[white] hover:text-[#384B70] bg-[#384B70] text-[white] transition duration-300">
+                     Download Syllabus
+                  </div>
+               </a>
+            </div>
+         </button>
+
+         <!-- Card 3 -->
+         <button class="bg-white  rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 ">
+            <div class="h-40 w-full overflow-hidden">
+               <img src="." class="">
+            </div>
+            <div class="p-5 ">
+               <h3 class="font-bold  ">Python<br>Programming</h3>
+
+               <h4 class="font-bold">Rs.14000</h4>
+
+               <a href="">
+                  <div
+                     class="border border-black rounded-3xl mt-5 bg-[#384B70] text-white font-bold text-center py-2 hover:bg-[white] hover:text-[#384B70] bg-[#384B70] text-[white] transition duration-300">
+                     Download Syllabus
+                  </div>
+               </a>
+            </div>
+         </button>
+
+         <!-- Card 4 -->
+         <button class=" bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 ">
+            <div class="h-40 w-full overflow-hidden">
+               <img src="." class="">
+            </div>
+            <div class="p-5">
+               <h3 class="font-bold pt-2">Frontend (Alpha)</h3>
+
+               <h4 class="font-bold">Rs.20000</h4>
+
+               <a href="">
+                  <div
+                     class="border border-black rounded-3xl mt-10 bg-[#384B70] text-white font-bold text-center py-2 hover:bg-[white] hover:text-[#384B70] bg-[#384B70] text-[white] transition duration-300">
+                     Download Syllabus
+                  </div>
+               </a>
+            </div>
+         </button>
+
+
+
+         <!-- Card 5 -->
+         <button class="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300">
+            <div class="h-40 w-full overflow-hidden">
+               <img src="." class="">
+            </div>
+            <div class="p-5">
+               <h3 class="font-bold pt-2">Backend With Python<br>(Super)</h3>
+
+               <h4 class="font-bold">Rs.20000</h4>
+
+               <a href="">
+                  <div
+                     class="border border-black rounded-3xl mt-5 bg-[#384B70] text-white font-bold text-center py-2 hover:bg-[white] hover:text-[#384B70] bg-[#384B70] text-[white] transition duration-300">
+                     Download Syllabus
+                  </div>
+               </a>
+            </div>
+         </button>
+
+         <!-- Card 6 -->
+
+         <button
+            class="shadow-l bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300">
+            <div class="h-40 w-full overflow-hidden">
+               <img src="." class="">
+            </div>
+            <div class="p-5">
+               <h3 class="font-bold pt-2">Full Stack With Python<br>Django</h3>
+
+               <h4 class="font-bold">Rs.20000</h4>
+
+               <a href="">
+                  <div
+                     class="border border-black rounded-3xl mt-5 bg-[#384B70] text-white font-bold text-center py-2 hover:bg-[white] hover:text-[#384B70] bg-[#384B70] text-[white] transition duration-300">
+                     Download Syllabus
+                  </div>
+               </a>
+            </div>
+         </button>
+
+
+         <!-- Card 7 -->
+         <button class=" bg-white  rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300">
+            <div class="h-40 w-full overflow-hidden">
+               <img src="." class="">
+            </div>
+            <div class="p-5">
+               <h3 class="font-bold pt-2">Full Stack With Mern</h3>
+
+               <h4 class="font-bold">Rs.20000</h4>
+               <a href="">
+                  <div
+                     class="border border-black rounded-3xl mt-10 bg-[#384B70] text-white font-bold text-center py-2 hover:bg-[white] hover:text-[#384B70] bg-[#384B70] text-[white] transition duration-300">
+                     Download Syllabus
+                  </div>
+               </a>
+            </div>
+         </button>
+
+
+         <!-- Card 8 -->
+         <div class=" bg-white rounded-3xl  shadow-xl hover:shadow-2xl transition duration-300">
+            <div class="h-40 w-full overflow-hidden">
+               <img src="." class="">
+            </div>
+            <div class="p-5">
+               <h3 class="font-bold pt-2">Full Stack With Mern<br>(Advance)</h3>
+
+               <h4 class="font-bold">Rs.20000</h4>
+               <a href="">
+                  <div
+                     class="border border-black rounded-3xl mt-5 bg-[#384B70] text-white font-bold text-center py-2 hover:bg-[white] hover:text-[#384B70] bg-[#384B70] text-[white] transition duration-300">
+                     Download Syllabus
+                  </div>
+               </a>
+            </div>
+         </div>
+
+      </div>
+   </section>
+
+   <!-- Image Infinite Scroll Section -->
+   <!-- <section class="overflow-hidden">
+
+      <div id="ImageSlidermain" class="flex">
+         <div id="ImageSlider" class="flex slide ">
+            <img class="w-full max-w-[130px]  mx-4"  src="./C++logo-removebg-preview.png" alt="">
+            <img class="w-full max-w-[130px] mx-4" src="./Clogo-removebg-preview.png" alt="">
+            <img class="w-full max-w-[130px] mx-4" src="./Javalogo-removebg-preview.png" alt="">
+            <img class="w-full max-w-[130px] mx-4" src="./pythonlogo-removebg-preview.png" alt="">
+            <img class="w-full max-w-[130px] mx-4" src="./React3-removebg-preview.png" alt="">
+            <img class="w-full max-w-[130px] mx-4" src="./pythonlogo-removebg-preview.png" alt="">
+
+         </div>
+         <div id="ImageSlider2" class="flex ml-[50px] slide">
+            <img class="w-full max-w-[130px] mx-4"  src="./C++logo-removebg-preview.png" alt="">
+            <img class="w-full max-w-[130px] mx-4" src="./Clogo-removebg-preview.png" alt="">
+            <img class="w-full max-w-[130px] mx-4" src="./Javalogo-removebg-preview.png" alt="">
+            <img class="w-full max-w-[130px] mx-4" src="./pythonlogo-removebg-preview.png" alt="">
+            <img class="w-full max-w-[130px] mx-4" src="./React3-removebg-preview.png" alt="">
+            <img class="w-full max-w-[130px] mx-4" src="./pythonlogo-removebg-preview.png" alt="">
+
+         </div>
+
+       
+   </div>
+
+
+   </section> -->
+
+   <!-- Image Scroll Section End -->
+
+   <!-- Our Services -->
+
+
+
+   <div>
+      <h1 class="text-center text-4xl font-bold text-[#384B70] gap-10">Our Services</h1>
+   </div>
+
+
+   <section class="ml-[200px]">
+      <div class="flex flex-col item-center flex justify-center mt-[100px] grid lg:grid-cols-4 md:grid-cols-2 gap-x-40">
+         <!-- Left Vertical Card -->
+
+         <div
+            class="flex flex-col w-[350px] h-[300px] bg-gray-100 border border-gray-300 rounded-2xl mt-[250px] slide-in-left">
+            <img src="" alt="">
+         </div>
+
+         <!-- Middle Cards (Stacked Vertically) -->
+         <div class="flex flex-col justify-between items-center grid ml-[32px]">
+            <div
+               class="flex flex-col justify-center items-center w-[320px] h-[250px] bg-gray-200 border border-gray-300 rounded-2xl text-center slide-in-above">
+
+               <img src="" alt="">
+            </div>
+            <div
+               class="flex flex-col justify-center items-center w-[320px] h-[250px] bg-gray-200 border border-gray-300 rounded-2xl text-center">
+               <img src="" alt="">
+            </div>
+         </div>
+
+         <!-- Right Vertical Card -->
+         <div
+            class="flex flex-col justify-center w-[350px] h-[300px] bg-gray-100 border border-gray-300 rounded-2xl text-center ml-[40px] slide-in-right">
+            <img src="" alt="">
+         </div>
+      </div>
+   </section>
+
+
+
+
+   <!-- Footer -->
+   <section class="mt-20">
+      <div class="overflow-hidden container-fluid mx-auto mt-5 bg-gray-900 ">
+         <p class="border-b border-b-gray-500 mt-8 pb-6 text-xl font-bold text-white text-center lg:text-left">
+            <span class="block lg:inline-block ml-0 lg:ml-12">
+               Top companies choose
+               <button class="text-[#384B70] hover:text-neutral-500 transition duration-200 hover:underline">
+                  Mafha Tech
+               </button>
+               to build in-demand career skills.
+            </span>
+         </p>
+
+         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-6 lg:px-12 py-8">
+            <div class="text-white text-sm">
+
+               <button class="pb-2 hover:underline block">Mafha Tech</button>
+               <a href="">
+                  <button class="pb-2 hover:underline block">Teach on Mafha Tech</button>
+               </a>
+               <a href="">
+                  <button class="pb-2 hover:underline block">About us</button>
+               </a>
+               <a href="">
+                  <button class="pb-2 hover:underline block">Contact us</button>
+               </a>
+               <a href="">
+                  <button class="pb-2 hover:underline block">Get app</button>
+               </a>
+            </div>
+
+            <div class="text-white text-sm">
+               <a href="">
+                  <button class="pb-2 hover:underline block">Careers</button>
+               </a>
+               <a href="">
+                  <button class="pb-2 hover:underline block">Blog</button>
+               </a>
+               <button class="pb-2 hover:underline block">Help & supports</button>
+               <button class="pb-2 hover:underline block">Affiliate</button>
+               <button class="pb-2 hover:underline block">Investors</button>
+            </div>
+
+            <div class="text-white text-sm">
+               <button class="pb-2 hover:underline block">Terms</button>
+               <button class="pb-2 hover:underline block">Privacy policy</button>
+               <button class="pb-2 hover:underline block">Cookies setting</button>
+               <button class="pb-2 hover:underline block">Sitemap</button>
+               <button class="pb-2 hover:underline block">Accessibility statement</button>
+            </div>
+
+            <div class="text-center lg:text-left">
+               <button class="text-lg font-semibold text-white border py-2 px-6 hover:bg-gray-800">
+                  English
+               </button>
+            </div>
+         </div>
+
+         <div class="flex flex-col lg:flex-row items-center justify-between px-6 lg:px-12 py-6">
+            <img src="./Mafhaass.png" alt="Logo Image"
+               class="transition-all duration-200 ease-in-out hover:brightness-0 w-40 cursor-pointer">
+            <p class="text-white text-xs mt-4 lg:mt-0">© 2024 Mafha Tech, Inc.</p>
+         </div>
+      </div>
+   </section>
+
+
+</body>
+
+</html>
